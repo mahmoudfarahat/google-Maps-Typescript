@@ -1,7 +1,8 @@
+import { Mappable } from './CustomeMap';
 import { faker } from "@faker-js/faker";
 // npm install @faker-js/faker
-
-export class User{
+ 
+export class User implements Mappable {
     name:string;
     location:{
         lat:number;
